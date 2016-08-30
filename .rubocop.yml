@@ -1,10 +1,5 @@
-AllCops:
-  Exclude:
-    - 'vendor/**/*'
-  DisplayCopNames: true
+inherit_gem:
+  onkcop: "config/rubocop.yml"
 
 Rails:
   Enabled: true
-
-inherit_gem:
-  onkcop: "config/rubocop.yml"
