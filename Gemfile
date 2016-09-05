@@ -44,9 +44,7 @@ group :development, :test do
   # rubocop
   gem 'rubocop'
   gem 'rubocop-rspec'
-end
 
-group :development do
   # gem for inherit_gem
   gem 'onkcop', require: false
 end
