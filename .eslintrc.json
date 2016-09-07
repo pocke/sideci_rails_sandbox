@@ -23,7 +23,8 @@
   },
   "plugins": [
     "react",
-    "jade"
+    "jade",
+    "meteor"
   ],
   "extends": [
     "eslint:recommended",
