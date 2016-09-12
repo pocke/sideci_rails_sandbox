@@ -23,7 +23,7 @@ linter:
     options:
       config: 'lint_yml/.eslintrc'
       ext: 'js,jsx,es6'
-      ignore-path: .gitignore application.js
+      ignore-path: .gitignore
       global: require,exports:true welcome.js
 
   tslint:
