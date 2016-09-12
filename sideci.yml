@@ -24,6 +24,8 @@ linter:
       config: 'lint_yml/.eslintrc'
       ext: 'js,jsx,es6'
       ignore-path: .gitignore
+      no-ignore: application.js
+      ignore-pattern: /src/vendor/*
       global: require,exports:true welcome.js
 
   tslint:
