@@ -1,5 +1,5 @@
 inherit_gem:
-  onkcop: "config/rubocop.yml"
+  hoge_gem: "config/rubocop.yml"
 
 AllCops:
   TargetRubyVersion: 2.3
