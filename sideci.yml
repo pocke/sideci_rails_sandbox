@@ -19,6 +19,10 @@ linter:
     options:
       config: 'lint_yml/coffeelint.json'
 
+  eslint:
+    options:
+      npm_install: 'develop'
+
   tslint:
     options:
       config: 'lint_yml/tslint.json'
