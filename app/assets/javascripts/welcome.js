@@ -5,9 +5,11 @@
 //= require footer_fixed.js
 //= require browser_timezone_rails/application.js
 
+// FIXME: どうにかしたい
 $("a.github_auth").click(function () {
   ga('send', 'event', 'button', 'click', {'page': '/users/auth/github'})
   ga('send', 'event', 'button', 'click', {'page': '/users/auth/github'})
 });
 
+// TODO: something wrong
 mixpanel.track_links("a.github_auth", "Click GitHub Auth");
