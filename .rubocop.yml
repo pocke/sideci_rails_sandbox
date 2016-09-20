@@ -1,5 +1,6 @@
 inherit_gem:
-  hoge_gem: "config/rubocop.yml"
+  aruba: ".rubocop.yml"
+  onkcop: "config/rubocop.yml"
 
 AllCops:
   TargetRubyVersion: 2.3
