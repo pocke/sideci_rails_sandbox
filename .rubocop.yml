@@ -1,5 +1,5 @@
 inherit_from:
-  - ./conf/.rubocop_todo.yml
+  - https://raw.githubusercontent.com/onk/onkcop/master/config/rubocop.yml
 
 Rails:
   Enabled: true
