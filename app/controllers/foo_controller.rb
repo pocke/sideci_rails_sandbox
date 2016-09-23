@@ -11,14 +11,6 @@ class FooController < ActionController::Base
       return
     end
 
-    banana = Banana.new
-
-    banana.save(validate: false)
-
-    banana.save
-
-    repo = self.class::CLASS_GITHUB_REPOSITORY.classify.constantize.some_method
-
     render text: "test"
   end
 end
