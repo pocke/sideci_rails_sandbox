@@ -1,5 +1,5 @@
 inherit_from:
-  - https://raw.githubusercontent.com/onk/onkcop/master/config/rubocop.yml
+  - https://raw.githubusercontent.com/actcat/sideci_rails_sandbox/test/rubocop_inherit_from_by_absolute_path/conf/rubocop_copy.yml
 
 Rails:
   Enabled: true
