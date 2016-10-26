@@ -4,34 +4,10 @@
   "description": "",
   "main": "libs/index.js",
   "dependencies": {
-    "classnames": "^2.2.5",
-    "eventemitter3": "^1.2.0",
-    "flat": "^2.0.1",
-    "intl": "^1.2.4",
-    "js-cookie": "^2.1.2",
-    "react": "^15.2.1",
-    "react-dom": "^15.2.1"
+    "classnames": "^2.2.5"
   },
   "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-core": "^6.11.4",
-    "babel-eslint": "^6.1.2",
-    "babel-loader": "^6.2.4",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "babel-polyfill": "^6.9.1",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-es2016": "^6.11.3",
-    "babel-preset-react": "^6.11.1",
-    "babel-preset-stage-0": "^6.5.0",
-    "chai": "^3.5.0",
-    "connect-history-api-fallback": "^1.2.0",
-    "cross-env": "^2.0.0",
-    "del": "^2.2.1",
-    "dotenv": "^2.0.0",
-    "eslint": "^3.2.2",
-    "eslint-config-airbnb": "10.0.0",
-    "eslint-plugin-import": "^1.12.0",
-    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint": "^2.1.1",
     "eslint-plugin-jsx-control-statements": "^2.1.1",
     "eslint-plugin-react": "^6.0.0"
   },
@@ -46,15 +22,9 @@
       "jsx": true
     },
     "extends": [
-      "airbnb",
-      "plugin:jsx-control-statements/recommended"
     ],
     "plugins": [
       "react",
-      "jsx-control-statements"
-    ],
-    "rules": {
-      "import/prefer-default-export": 0
-    }
+    ]
   }
 }
