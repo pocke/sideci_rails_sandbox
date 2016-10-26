@@ -24,7 +24,7 @@
     "extends": [
     ],
     "plugins": [
-      "react",
+      "react"
     ]
   }
 }
