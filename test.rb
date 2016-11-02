@@ -1,19 +1,16 @@
+# frozen_string_literal: true
 a = 1
-  class AAA
-    def initialize
-      @a
-    end
-  
-    def a
-      @a
-    end
-  
-      def foo
-        bar
-      end
+class AAA
+  def initialize
+    @a
   end
-  
-  a = ['x','y','z']
-  puts a
 
+  attr_reader :a
 
+  def foo
+    bar
+  end
+end
+
+a = %w(x y z)
+puts a
