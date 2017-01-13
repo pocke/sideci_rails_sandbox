@@ -11,3 +11,15 @@ $("a.github_auth").click(function () {
 });
 
 mixpanel.track_links("a.github_auth", "Click GitHub Auth");
+
+function x(x, x) {
+  return;
+  return;
+}
+
+x = {
+  foo: 1,
+  foo: 2,
+}
+
+console.log(x);
